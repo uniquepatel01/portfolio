@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(/practics/IMG_20180904_074358-01-01.jpeg);
+    background-size: cover;
+    background-position: center;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-inline: 8%;
+    background-color: rgba(0,0,0,0.3);
+}
+.logo{
+    color: violet;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(241, 237, 243);
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+}
+nav ul li a:hover{
+    background-color: red;
+}
+.yt{
+    text-decoration: none;
+    color: red;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.yt:hover{
+    background-color: red;
+    color: white;
+}
+.intro{
+    margin-top: 10%;
+    margin-left: 10%;
+    background: rgba(0,0,0,0.3);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
+.intro h2{
+    padding-bottom: 10px;
+    font-size:2rem;
+    font-weight: 700;
+}
+.intro p{
+    color: white;
+    line-height: 1.5em;
+    font-weight: bold;
+}
+span{
+    color: red;
+    font-family: cursive;
+    text-shadow: rgb(251, 251, 250) 1px 0 10px;;
+}
